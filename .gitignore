@@ -1,0 +1,23 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+ 
+# Kubernetes kubeconfig (contains sensitive credentials)
+kubeconfig
+ 
+# Ignore environment variables and log files
+.env
+*.log
+ 
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+ 
+# Ignore compiled files and temporary system files
+*.out
+*.class
+.DS_Store
+Thumbs.db
